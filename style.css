@@ -3,7 +3,7 @@
 body{
     margin-left:0%;
 }
-#sijainti{
+#sijainti1,#sijainti11,#sijainti3,#sijainti4,#sijainti5,#sijainti6,#sijainti7,#sijainti8,#sijainti9,#sijainti10{
  position:fixed;
  right:80%;
  margin: 5px;
@@ -12,13 +12,13 @@ input[type=text],[type=password],[type=email],[type=number],[type=submit],select
     position: fixed;
     left: 20%;
     margin-top: 5px;
-    margin-bottom: 5px;    
+    margin-bottom: 5px;    ,
 }
 #btn{
     margin-top: 150px;
     margin-left: 80px;
 }
-#sijainti2{
+#sijainti2,#sijainti12{
     margin-top: 7px;
     margin-left: 20%;
 }

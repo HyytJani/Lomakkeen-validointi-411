@@ -14,35 +14,35 @@
 
     <div>
     <form id="lomake" name="myForm"  onsubmit="return validateForm()" method="post">
-         <label id="sijainti" for=" Käyttäjä ID:" > Käyttäjä ID:</label>
+         <label id="sijainti1"  > Käyttäjä ID:</label>
        <input type="text" name="id" required="required"><br><br>
-       <label id="sijainti" for="   Salasana: ">   Salasana: </label>
+       <label id="sijainti11" >  Salasana: </label>
        <input type="password" name="salasana" required="required" ><br><br>
-       <label id="sijainti" for="Nimi: ">Nimi: </label>
+       <label id="sijainti3" >Nimi: </label>
        <input type="text" name="nimi" required="required"><br><br>
-       <label id="sijainti" for=" Osoite:"> Osoite:</label>
+       <label id="sijainti4" > Osoite:</label>
        <input type="text" name="osoite" required="required"><br><br>
-       <label id="sijainti"for="maa">Maa:</label>          
+       <label id="sijainti5">Maa:</label>          
             <select id="maa" name="maa"  required="required"  >
                 <option  value="">(Valitse maa)</option> 
                 <option  value="Suomi">Suomi</option>
                 <option  value="Viro">Viro</option>
             </select><br><br>       
-       <label id="sijainti" for="Postinumero: ">Postinumero: </label>
-      <input type="number" name="postinumero" required="required" pattern="[0-9]{5}"><br><br>
-      <label id="sijainti" for="Sähköpostiosoite:">Sähköpostiosoite:</label>
+       <label id="sijainti6">Postinumero: </label>
+      <input type="number" name="postinumero" required="required" ><br><br>
+      <label id="sijainti7">Sähköpostiosoite:</label>
         <input type="email" name="email" id="email" required="required"><br><br>
-        <label id="sijainti" for="Sukupuoli">Sukupuoli:</label>          
-        <input type="radio" id="sijainti2" name="sukupuoli" value="Mies"required="required">
-        <label for="mies">Mies</label>
+        <label id="sijainti8">Sukupuoli:</label>          
+        <input type="radio" id="sijainti2" name="sukupuoli" value="Mies" required="required">
+        <label >Mies</label>
         <input type="radio" id="nainen" name="sukupuoli" value="Nainen" required="required">
-        <label id="nainen" for="nainen">Nainen</label><br><br>      
-        <label id="sijainti" for="kieli">Kieli:</label>
-        <input type="checkbox" id="sijainti2" name="suomi" >
-        <label for="suomi">Suomi </label>
+        <label >Nainen</label><br><br>      
+        <label id="sijainti9">Kieli:</label>
+        <input type="checkbox" id="sijainti12" name="suomi" >
+        <label >Suomi </label>
         <input type="checkbox" name="muu" >
-        <label for="muu">Muu kuin suomi </label><br><br>      
-        <label id="sijainti"for=" lisätietoja:"> lisätietoja:</label>
+        <label >Muu kuin suomi </label><br><br>      
+        <label id="sijainti10"> lisätietoja:</label>
          <textarea name="lisätietoja" rows="10" cols="30"></textarea>
   <br><br>
         <input id="btn" type="submit" value="Lähetä"><br><br>
