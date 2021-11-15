@@ -12,7 +12,7 @@ input[type=text],[type=password],[type=email],[type=number],[type=submit],select
     position: fixed;
     left: 20%;
     margin-top: 5px;
-    margin-bottom: 5px;    ,
+    margin-bottom: 5px;    
 }
 #btn{
     margin-top: 150px;
